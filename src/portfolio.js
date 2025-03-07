@@ -23,7 +23,7 @@ const greeting = {
   username: "Itumeleng Malemela",
   title: "Hi all, I'm Itumeleng",
   subTitle: emoji(
-"A passionate Software Engineer 🚀 with experience in developing scalable Web applications, Microservices, and integrating APIs. Skilled in JavaScript, React.js, Node.js, and other cool modern technologies to build high-performance systems."  ),
+"A passionate Software Engineer 🚀 with experience in developing scalable Web applications, Microservices, and integrating APIs. Skilled in JavaScript, Node.js, Linux and other cool modern technologies to build high-performance systems."  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -52,8 +52,10 @@ const skillsSection = {
       "⚡ Develop Front end and Back end interfaces for web applications"
     ),
     emoji("⚡ API integrations, Microservices, Databases and Testing Pipelines"),
-    emoji("⚡ Developing Health Applications and API's using FHIR standard"),
-    emoji("⚡ Digital Signal Processing with Matlab for Radar Engineering"),
+    emoji("⚡ Developing Health APIs using the Fast Health Interoperability Resources standard"),
+    emoji("⚡ Linux System Administration"),
+    emoji("⚡ Digital Signal Processing "),
+
 
   ],
 
@@ -115,10 +117,10 @@ const educationInfo = {
       logo: require("./assets/images/UCT.jpg"),
       subHeader: "Master of Science in Engineering (Electrical and Computer Eng)",
       duration: " February 2021 - February 2025",
-      desc: "Design and Implementation of Tracking filters for a Passive Radar System",
+      desc: "Design and Implementation of Tracking filters for a FM  Passive Radar System",
       descBullets: [
-        "Development of Tracking Filters in Matlab",
-        "Dissertation on the Design and Implementation of Tracking filters for PR system"
+        "Development of Tracking Filters for tracking commercial aircraft using existing illuminators of opportunity such as FM radio transimtters",
+        "Dissertation on the Design and Implementation of Tracking filters for FM PR system"
       ]
     },
     {
@@ -126,8 +128,11 @@ const educationInfo = {
       logo: require("./assets/images/UCT.jpg"),
       subHeader: "Bachelor of Science in Engineering (Electrical and Computer Eng)",
       duration: "January 2016 - December 2020",
-      desc: "Graduated with Honours with a GPA of 73,5. Took courses about Software Engineering, Machine Learning, Embedded Systems, Electronics ...",
-    }
+      descBullets: [
+        "Graduated with Honours with a GPA of 73,5",
+        "Took courses about Software Engineering, Machine Learning, Embedded Systems, Electronics and Electrical Engineering",
+        "Final Year Project was on the Development of a Low Cost Smart Farm Hub (API development for an IoT hub)"
+      ]}
   ]
 };
 
@@ -137,15 +142,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend Programming and Design", //Insert stack or technology you have experience in
       progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "API/Backend Programming",
       progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "System Administration",
       progressPercentage: "60%"
     },
     {
@@ -166,10 +171,8 @@ const workExperiences = {
       company: "Council for Scientific and Industrial Research",
       companylogo: require("./assets/images/csir.jpeg"),
       date: "Feb 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
@@ -177,7 +180,7 @@ const workExperiences = {
       company: "Council for Scientific and Industrial Research",
       companylogo: require("./assets/images/csir.jpeg"),
       date: "Mar 2021 – Feb 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: ""
     },
     {
       role: "Vacation Work Student",
@@ -228,8 +231,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/HPRS.jpg"),
-      projectName: "Health Patient Record System",
-      projectDesc: "Involved in design and development of a HPRS system that is used to record patient data accross SA Health Facilities",
+      projectName: "EVDS,EMR,HPRS",
+      projectDesc: "Involved in design and development of various major Health Projects in South Africa. The projects include the Electronic Vaccination Data System (EVDS), Electronic Medical Records (EMR) and the Health Patient Registration System (HPRS).",
       footerLink: [
         {
           name: "Visit Website",
@@ -237,17 +240,6 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/evds.png"),
-      projectName: "Electronic Vaccination Data System",
-      projectDesc: "Involved in the development of EVDS, which was an initiative of the NDOH and the CSIR and responsible for capturing over a million vaccinations per day",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/itumeleng96/FM-PR-TrackingFilters/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -310,7 +302,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
