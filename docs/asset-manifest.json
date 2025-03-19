@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Itumeleng-Portfolio/static/css/main.46cd7620.css",
-    "main.js": "/Itumeleng-Portfolio/static/js/main.77bd13aa.js",
+    "main.css": "/Itumeleng-Portfolio/static/css/main.ad9299c7.css",
+    "main.js": "/Itumeleng-Portfolio/static/js/main.d9db4dd2.js",
     "static/css/64.bba8fa55.chunk.css": "/Itumeleng-Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Itumeleng-Portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Itumeleng-Portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/Itumeleng-Portfolio/static/js/769.bda0d7b7.chunk.js",
     "static/media/smartFarmHub.png": "/Itumeleng-Portfolio/static/media/smartFarmHub.068550a49a331b7e81a9.png",
+    "static/media/resume.pdf": "/Itumeleng-Portfolio/static/media/resume.fd5b1425b82a9bdf01ad.pdf",
     "static/media/Montserrat-Regular.ttf": "/Itumeleng-Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/Itumeleng-Portfolio/static/media/resume.1457643c99650d8b289d.pdf",
     "static/media/HPRS.jpg": "/Itumeleng-Portfolio/static/media/HPRS.8e47b1414702ed2092f7.jpg",
     "static/media/UCT.jpg": "/Itumeleng-Portfolio/static/media/UCT.938b32efa6a80aba2249.jpg",
     "static/media/Agustina.woff": "/Itumeleng-Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -23,15 +23,15 @@
     "static/media/pwaLogo.webp": "/Itumeleng-Portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/Itumeleng-Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Itumeleng-Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.46cd7620.css.map": "/Itumeleng-Portfolio/static/css/main.46cd7620.css.map",
-    "main.77bd13aa.js.map": "/Itumeleng-Portfolio/static/js/main.77bd13aa.js.map",
+    "main.ad9299c7.css.map": "/Itumeleng-Portfolio/static/css/main.ad9299c7.css.map",
+    "main.d9db4dd2.js.map": "/Itumeleng-Portfolio/static/js/main.d9db4dd2.js.map",
     "64.bba8fa55.chunk.css.map": "/Itumeleng-Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Itumeleng-Portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Itumeleng-Portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/Itumeleng-Portfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46cd7620.css",
-    "static/js/main.77bd13aa.js"
+    "static/css/main.ad9299c7.css",
+    "static/js/main.d9db4dd2.js"
   ]
 }
